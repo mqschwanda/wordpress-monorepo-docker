@@ -4,10 +4,6 @@
     <title>
       Example
     </title>
-    <link
-      href="<?php echo get_stylesheet_directory_uri(); ?>/dist/styles.css"
-      rel="stylesheet"
-    >
     <?php wp_head() ?>
   </head>
   <body
