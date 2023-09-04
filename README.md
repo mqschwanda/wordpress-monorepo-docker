@@ -1,1 +1,1 @@
-# wordpress-theme-docker
+# wordpress-monorepo-docker

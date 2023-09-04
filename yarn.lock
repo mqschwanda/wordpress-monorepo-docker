@@ -10,8 +10,8 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"wordpress-theme-docker@workspace:.":
+"wordpress-monorepo-docker@workspace:.":
   version: 0.0.0-use.local
-  resolution: "wordpress-theme-docker@workspace:."
+  resolution: "wordpress-monorepo-docker@workspace:."
   languageName: unknown
   linkType: soft

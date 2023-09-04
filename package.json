@@ -1,7 +1,7 @@
 {
-  "name": "wordpress-theme-docker",
+  "name": "wordpress-monorepo-docker",
   "version": "0.0.0",
-  "repository": "git@github.com:mqschwanda/wordpress-theme-docker.git",
+  "repository": "git@github.com:mqschwanda/wordpress-monorepo-docker.git",
   "author": "mqschwanda <mqschwanda@gmail.com>",
   "license": "MIT",
   "packageManager": "yarn@3.6.3",
