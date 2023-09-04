@@ -1,5 +1,5 @@
 {
-  "name": "@mqs/wordpress-theme-example",
+  "name": "@mqs/wordpress-theme-example-classic",
   "version": "0.0.0",
   "repository": "git@github.com:mqschwanda/wordpress-monorepo-docker.git",
   "author": "mqschwanda <mqschwanda@gmail.com>",

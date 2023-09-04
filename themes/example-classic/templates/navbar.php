@@ -44,7 +44,7 @@
     <a
       class="btn btn-ghost normal-case text-xl"
     >
-        Example
+      Example Classic
     </a>
   </div>
   <div

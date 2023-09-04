@@ -2,7 +2,7 @@
 <html>
   <head>
     <title>
-      Example
+      Example Classic
     </title>
     <?php wp_head() ?>
   </head>
@@ -22,7 +22,7 @@
           class="prose"
         >
           <h1>
-            Example
+            Example Classic
           </h1>
           <p>
             If you are able to see this, it means the theme is working correctly.
