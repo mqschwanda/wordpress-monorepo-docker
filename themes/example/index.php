@@ -13,6 +13,9 @@
   <body
     class='flex flex-col h-screen'
   >
+    <header>
+      <?php get_template_part('templates/navbar', 'navbar') ?>
+    </header>
     <main
       class='flex-grow'
     >
