@@ -4,5 +4,10 @@
   "repository": "git@github.com:mqschwanda/wordpress-theme-docker.git",
   "author": "mqschwanda <mqschwanda@gmail.com>",
   "license": "MIT",
-  "packageManager": "yarn@3.6.3"
+  "packageManager": "yarn@3.6.3",
+  "workspaces": {
+    "packages": [
+      "themes/*"
+    ]
+  }
 }
