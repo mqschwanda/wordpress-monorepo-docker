@@ -4,27 +4,45 @@
     <title>
       Example
     </title>
+    <link
+      href="<?php echo get_stylesheet_directory_uri(); ?>/dist/styles.css"
+      rel="stylesheet"
+    >
     <?php wp_head() ?>
   </head>
-  <body>
-    <h1>
-      Example
-    </h1>
-    <p>
-      If you are able to see this, it means the theme is working correctly.
-    </p>
-    <p>
-      Here are some useful links:
-    </p>
-    <ul>
-      <li>
-        <a
-          href="<?php echo get_site_url(); ?>/wp-admin"
+  <body
+    class='flex flex-col h-screen'
+  >
+    <main
+      class='flex-grow'
+    >
+      <div
+        class="container mx-auto"
+      >
+        <article
+          class="prose"
         >
-          Login into the WordPress admin dashboard.
-        </a>
-      </li>
-    </ul>
+          <h1>
+            Example
+          </h1>
+          <p>
+            If you are able to see this, it means the theme is working correctly.
+          </p>
+          <p>
+            Here are some useful links:
+          </p>
+          <ul>
+            <li>
+              <a
+                href="<?php echo get_site_url(); ?>/wp-admin"
+              >
+                Login into the WordPress admin dashboard.
+              </a>
+            </li>
+          </ul>
+        </article>
+      </div>
+    </main>
     <?php wp_footer() ?>
   </body>
 </html>

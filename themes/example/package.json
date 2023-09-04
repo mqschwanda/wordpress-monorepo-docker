@@ -4,5 +4,14 @@
   "repository": "git@github.com:mqschwanda/wordpress-monorepo-docker.git",
   "author": "mqschwanda <mqschwanda@gmail.com>",
   "license": "GPL-2.0-or-later",
-  "packageManager": "yarn@3.6.3"
+  "packageManager": "yarn@3.6.3",
+  "scripts": {
+    "build": "yarn tailwindcss -i ./src/styles.css -o ./dist/styles.css",
+    "build:dev": "yarn build --watch",
+    "build:prod": "yarn build --minify"
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.9",
+    "tailwindcss": "^3.3.3"
+  }
 }
